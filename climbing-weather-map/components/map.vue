@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import "leaflet/dist/leaflet.css";
 
 import {
     LMap,
@@ -26,4 +25,5 @@ export default {
 </script>
 
 <style>
+@import "leaflet/dist/leaflet.css";
 </style>

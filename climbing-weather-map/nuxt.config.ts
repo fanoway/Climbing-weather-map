@@ -22,4 +22,7 @@ export default defineNuxtConfig({
       measurementId: process.env.FB_measurementId,
     },
   },
+  build: {
+    transpile: ["@vue-leaflet/vue-leaflet"],
+  },
 });
