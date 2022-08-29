@@ -1,13 +1,19 @@
 <template>
   <div>
+    <!-- Responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
   <button class = "button">Hello World</button>
   </div>
 </template>
 
-<script setup>
-
+<script>
+  export default {
+    head() {
+      return {
+        title: "Climbing Weather Map"
+      };
+    },
+  };
 </script>
 
 
