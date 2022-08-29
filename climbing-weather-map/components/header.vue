@@ -3,7 +3,7 @@
         <div class=" navbar-brand">
             <div class="navbar-item">
                 <figure class="image is-64x.64">
-                    <img src="/logo.png">
+                    <img src="/logos/Logo.png">
                 </figure>
             </div>
         </div>
